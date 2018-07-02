@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.faceout.nilesh.faceout20.addContact">
+
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            app:srcCompat="@drawable/add" />
+
+
+
+
+        <EditText
+            android:id="@+id/newname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/save"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="54dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:layout_marginEnd="42dp"
+            android:layout_toStartOf="@+id/cancel"
+            android:text="Save"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/newname"
+            android:layout_below="@+id/newname"
+            android:text="Cancel"
+            android:onClick="onClickBtn1"/>
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_above="@+id/save"
+            android:layout_alignStart="@+id/newname"
+            android:layout_marginStart="15dp">
+        <RadioButton
+            android:id="@+id/whitelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cancel"
+            android:layout_alignEnd="@+id/newname"
+            android:layout_marginBottom="14dp"
+            android:text="WhiteList"
+            android:onClick="onRadioButtonClicked"/>
+
+                <RadioButton
+                    android:id="@+id/blacklist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/whitelist"
+                    android:layout_alignBottom="@+id/whitelist"
+                    android:layout_alignStart="@+id/newname"
+                    android:layout_marginLeft="55dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="BlackList" />
+        </RadioGroup>
+
+</RelativeLayout>
+
+

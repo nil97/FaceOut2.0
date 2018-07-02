@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "209303115949",
+    "firebase_url": "https://faceout-49a92.firebaseio.com",
+    "project_id": "faceout-49a92",
+    "storage_bucket": "faceout-49a92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209303115949:android:c9712361d40a7aaa",
+        "android_client_info": {
+          "package_name": "com.faceout.nilesh.faceout20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209303115949-9mos0s0vkohkmmacnve658egcfiu8b9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.faceout.nilesh.faceout20",
+            "certificate_hash": "0a0921399638128a82c10563328b3029f14868de"
+          }
+        },
+        {
+          "client_id": "209303115949-vkmc788dool4s1p4ecj4rvg9qt09e446.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkRtPK9YvOTA3vRFcyRZQvq7WCPLt_gMg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209303115949-vkmc788dool4s1p4ecj4rvg9qt09e446.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
